@@ -1,0 +1,9 @@
+﻿.LogInTable
+{
+	border-left:dashed 1px Aqua;
+	border-right:dashed 1px Aqua;
+	border-top:dashed 1px Aqua;
+	border-bottom:dashed 1px Aqua;
+	padding:10px 10px 10px 10px;
+	border-spacing:10px;
+}

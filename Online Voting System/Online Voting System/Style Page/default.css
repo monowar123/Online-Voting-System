@@ -1,0 +1,22 @@
+﻿#div_body
+{
+	height:500px;
+}
+
+#election_info
+{
+}
+
+#archive
+{
+	border: 1px solid #444;
+	float:left;
+	width:75%;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+#calender
+{
+}

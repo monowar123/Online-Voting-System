@@ -1,0 +1,29 @@
+﻿.mainTable
+{
+	width:100%;
+	
+	background-color:White;
+	border-top:solid 2px black;
+	border-bottom:solid 2px black;
+	border-left:solid 2px black;
+	border-right:solid 2px black;
+}
+
+.menu
+{
+	background-color:Green;
+	height:50px;
+}
+
+.menu a
+{
+	color:White;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 10px 10px 20px;
+}
+
+.menu a:hover
+{
+	background-color:MenuText;
+}

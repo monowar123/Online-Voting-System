@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" MasterPageFile="~/Master Page/Main.Master" CodeBehind="SuperAdminMaster.master.cs" Inherits="Online_Voting_System.SuperAdmin.SuperAdminMaster" %>
+
+<asp:Content ID="superAdminMaster_head" ContentPlaceHolderID="ContentHead" runat="server">
+    <link href="../Style%20Page/SuperAdmin.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="superAdminHead" runat="server">
+    
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="superAdminMaster_body" ContentPlaceHolderID="ContentBody" runat="server">
+    <div id="mainDiv">
+        <div id="LeftSidebar">
+            <a href="SuperAdminHome.aspx">Home</a> <br />
+            <a href="CreateAdmin.aspx">Create Admin</a> <br />
+            <a href="AdminList.aspx">Admin List</a> <br />
+            <a href="VotarRegistration.aspx">Votar Registration</a> <br />
+            <a href="Security.aspx">Security</a> <br />
+            <a href="CreateEvent.aspx">Create Event</a> <br />
+            <a href="NewApplication.aspx">New Application</a> <br />
+            <a href="Settings.aspx">Settings</a>
+        </div>
+        <div id="RightSidebar">
+            <div style="width:100%; text-align:right;">
+                <asp:LinkButton ID="btnLogOut" runat="server" onclick="btnLogOut_Click">Log Out</asp:LinkButton>
+            </div>
+            <asp:ContentPlaceHolder ID="superAdminBody" runat="server">
+                    
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+</asp:Content>

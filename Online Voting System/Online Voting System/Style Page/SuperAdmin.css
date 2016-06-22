@@ -1,0 +1,18 @@
+﻿#mainDiv
+{
+	width:100%;
+}
+
+#LeftSidebar
+{
+	float:left;
+	width:20%;
+	background:#EEE;
+}
+	
+#RightSidebar
+{
+	float:left;
+	background:#EEE;
+	width:80%;
+}

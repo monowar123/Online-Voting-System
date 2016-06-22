@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" MasterPageFile="~/Master Page/Main.Master" CodeBehind="General.master.cs" Inherits="Online_Voting_System.Master_Page.General" %>
+
+<asp:Content ID="generalMaster_head" ContentPlaceHolderID="ContentHead" runat="server">
+    <link href="../Style%20Page/SuperAdmin.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="generalHead" runat="server">
+    
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="generalMaster_body" ContentPlaceHolderID="ContentBody" runat="server">
+    <div id="mainDiv">
+        <div id="LeftSidebar">            
+            <a href="AccountHome.aspx">Account Home</a> <br />
+            <a href="Candidate.aspx">Candidate of your area</a> <br />
+            <a href="Vote.aspx">Vote</a> <br />
+            <a href="ApplyCandidate.aspx">Apply for Candidate</a> <br />
+            <a href="ApplyParty.aspx">Apply for new Party</a> <br />
+            <a href="Security.aspx">Security</a>
+        </div>
+        <div id="RightSidebar">
+            <div style="width:100%; text-align:right;">
+                <asp:LinkButton ID="btnLogOut" runat="server">Log Out</asp:LinkButton>
+            </div>
+            <asp:ContentPlaceHolder ID="generalBody" runat="server">
+    
+            </asp:ContentPlaceHolder> 
+        </div>
+    </div>
+</asp:Content>

@@ -1,0 +1,9 @@
+Session["role"] = dr["admintype"].ToString();
+
+Session["pageId"] = null;
+
+Session["adminName"] = dr["user_name"].ToString();
+
+Session["btnSave"] = "NotClicked";
+
+Session["adminId"] = dr["votar_id"].ToString();
